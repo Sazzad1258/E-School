@@ -1,0 +1,156 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* common css */
+:root{
+	--bgg	 : #f0fff0;
+	--black  : #000000;
+	--green  : #218573;
+	--red	 : #fd511a;
+	--pop	 : "Poppins", sans-serif;
+	--rob	 : "roboto", sans-serif;
+}
+.body{
+	font-family: var(--pop)
+	font-size:16px;
+	font-weight: 400;
+	color: var(--black);	
+}
+/* common css end */
+/* header start */
+.header{
+	background-color: var(--bgg);
+}
+.c_nav{}
+.logo{}
+.menu{}
+.manu ul li a{
+	color: var(--black);
+	padding: 0 20px!important;
+}
+.menu ul li a:hover{
+	color: var(--red);
+}
+.btn_cm{
+	background-color: var(--green);
+	border-radius: 33px;
+	font-family: var(--red);
+	color: var(--bgg);
+	border: 0;
+}
+.btn_sign{
+	margin-left: 15px;
+	padding: 12px 28px;
+}
+.btn_cm:hover{
+	background-color: var(--red);
+	color: var(--bgg);
+}
+/* header end */
+/* banner Start */
+.banner{
+	background-color: var(--bgg);
+	padding-bottom: 65px;
+}
+.b_text{}
+.b_p1{
+	color: var(--red);
+}
+.b_h1{
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 70px;
+	color: var(--black);
+	margin: 10px 45px 20px 0;
+}
+.b_h1 span{
+	color: var(--green);
+}
+.b_p2{
+	line-height: 36px;
+}
+.btn_get{
+	12px 36px;
+}
+/* banner end */
+/* feature start */
+.feature{}
+.p_bottom{
+	padding-bottom: 100px;
+}
+.f_item{
+	margin: 45px 0 0;
+	padding: 55px 0 50px;
+	background-color: var(--bgg);
+	border-radius: 10px;
+	transition: .33sliner;
+}
+.f_img{
+	width: 75px;
+	height: 80px;
+}
+.f_h2{
+	margin: 20px 0 0;
+	font-weight: 500;
+	font-size: 24px;
+	color: var(--black);
+}
+.f_p{}
+.f_item:hover{
+	background-color: var(--bgg);
+	box-shadow: 0px 20px 40px 0px #0000001A;
+
+}
+/* feature end */
+/* course start */
+.c_h1{
+	font-size: 36px;
+	font-weight: 700;
+	color: var(--black);
+}
+.co_item{
+	border-radius: 10px;
+	box-shadow: 0px 10px 40px 0px #0000001A;
+	padding: 25px 20px 30px;
+}
+.co_img{}
+.co_h2{
+	margin: 20px 0 5px;
+	font-weight: 500;
+	font-size: 24px;
+	color: var(--black);
+}
+co_p{}
+.co_btn{
+	margin: 20px 0 35px;
+	padding: 8px 28px;
+}
+.cli:not(:last-child){
+	margin-right: 6px;
+}
+.co_left ul li img, .co_right ul li img{}
+.co_left ul li span, .co_right ul li span{
+	font-weight: 500;
+}
+/* course end */
+/* testmony start */
+.testimony{padding-bottom: 100px;}
+.t_item{margin-top: 60px;}
+.t_img{}
+.t_img img{ width: 100%;}
+.t_text{}
+.t_text p{}
+/* testmony end */
+/* footer start */
+footer ul li {
+  color: #ccc;
+  margin-bottom: 10px 10px 0;
+  padding-left: 50px;
+}
+
+footer h5 {
+	padding-left: 50px;
+  font-weight: bold;
+}
+
+/* footer end */
